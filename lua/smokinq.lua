@@ -182,8 +182,7 @@ local syntax = {
 
 	-- Indentifier --
 	Function = { fg = color.normal.cyan, bold = true },
-	--Identifier = { fg = color.primary.fg.normal },
-	Identifier = { fg = color.extra.magenta },
+	Identifier = { fg = color.primary.fg.dim },
 
 	--Statement --
 	Statement = { fg = color.bright.yellow },
@@ -232,6 +231,7 @@ local syntax = {
 
 local plugin_syntax = {
 	["@function"] = { fg = color.bright.cyan },
+	["@function.builtin"] = { fg = color.extra.magenta },
 	["@property"] = { fg = color.bright.cyan },
 	["@define"] = { fg = color.bright.cyan },
 	["@macro"] = { fg = color.bright.cyan },
