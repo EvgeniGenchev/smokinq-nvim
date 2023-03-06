@@ -57,7 +57,7 @@ local color = {
 	},
 	none = "NONE",
 	extra = {
-		magenta = "#c678dd",
+		magenta = "#b380c2",
 		black = "#000000",
 		gray = "#6c6c6b",
 	}
@@ -182,7 +182,8 @@ local syntax = {
 
 	-- Indentifier --
 	Function = { fg = color.normal.cyan, bold = true },
-	Identifier = { fg = color.primary.fg.normal },
+	--Identifier = { fg = color.primary.fg.normal },
+	Identifier = { fg = color.extra.magenta },
 
 	--Statement --
 	Statement = { fg = color.bright.yellow },
