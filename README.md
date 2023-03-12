@@ -46,7 +46,7 @@ lua require('smokinq')
   <a href="https://github.com/EvgeniGenchev" target="_blank">EvgeniGenchev</a>
 </p>
 <p align="center">
-  <a href="https://github.com/glepnir/zephyr-nvim/blob/master/LICENSE"
+  <a href="https://github.com/EvgeniGenchev/smokinq-nvim/blob/master/LICENSE"
     ><img
       src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=282a36&colorB=c678dd"
   /></a>
