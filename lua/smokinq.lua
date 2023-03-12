@@ -232,6 +232,8 @@ local syntax = {
 local plugin_syntax = {
 	["@function"] = { fg = color.bright.cyan },
 	["@function.builtin"] = { fg = color.extra.magenta },
+	["@variable.builtin"] = { fg = color.extra.magenta },
+	["@constructor"] = { fg = color.extra.magenta },
 	["@property"] = { fg = color.bright.cyan },
 	["@define"] = { fg = color.bright.cyan },
 	["@macro"] = { fg = color.bright.cyan },
