@@ -43,7 +43,7 @@ lua require('smokinq')
 
 <p align="center">
   Copyright &copy; 2020-present
-  <a href="https://github.com/glepnir" target="_blank">Raphael</a>
+  <a href="https://github.com/EvgeniGenchev" target="_blank">EvgeniGenchev</a>
 </p>
 <p align="center">
   <a href="https://github.com/glepnir/zephyr-nvim/blob/master/LICENSE"
