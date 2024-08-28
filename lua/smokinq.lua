@@ -242,6 +242,7 @@ local plugin_syntax = {
 
     ["@include"] = { fg = color.extra.gray },
     ["@conditional"] = { fg = color.bright.blue },
+    ["@parameter"] = { fg = color.base.gr4 },
 
     ["@keyword.raise"] = { fg = color.dim.red },
     ["@keyword.try"] = { fg = color.dim.red },
