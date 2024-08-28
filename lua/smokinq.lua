@@ -241,6 +241,7 @@ local plugin_syntax = {
     ["@exception"] = { fg = color.normal.red },
 
     ["@include"] = { fg = color.extra.gray },
+    ["@conditional"] = { fg = color.bright.blue },
 
     ["@keyword.raise"] = { fg = color.dim.red },
     ["@keyword.try"] = { fg = color.dim.red },
