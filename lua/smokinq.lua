@@ -238,6 +238,14 @@ local plugin_syntax = {
 	["@define"] = { fg = color.bright.cyan },
 	["@macro"] = { fg = color.bright.cyan },
 	["@variable"] = { fg = color.primary.fg.bright },
+    ["@exception"] = { fg = color.normal.red },
+
+    ["@include"] = { fg = color.extra.gray },
+
+    ["@keyword.raise"] = { fg = color.dim.red },
+    ["@keyword.try"] = { fg = color.dim.red },
+    ["@keyword.except"] = { fg = color.dim.red },
+
 	IndentBlankLineChar = { fg = color.base.gr2},
 	
 	LspReferenceRead = { bg = color.primary.bg, bold = true },
